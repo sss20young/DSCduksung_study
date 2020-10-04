@@ -1,0 +1,45 @@
+ /*style.css*/
+
+
+/*
+https://fonts.google.com/
+-> 원하는 폰트 선택
+-> + Select this style 선택
+-> Embed의 @import 선택
+-> 1. style 태그 제외한 @import 복사
+-> 2. style.css 안에 넣기
+-> 3. CSS rules to specify families 에 해당하는 코드 복사
+-> 4. 원하는 태그 안에 넣기
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+	font-family: 'Do Hyeon', sans-serif;
+	background-color : skyblue;
+	color: white;
+	text-align: left;
+	padding: 10%;
+}
+
+ul {
+	list-style: none;
+	padding-inline-start: 0px;
+}
+
+li {
+	color : black;
+	margin-top: 2%;
+}
+
+.list-group-item {
+	padding: .5rem 1rem;
+}
+
+/* 수정, 삭제 버튼 */
+.md, .rm {
+	padding: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 8px;
+}
