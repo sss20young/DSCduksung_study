@@ -10,7 +10,7 @@ const NoticeBoardList = ({ posts, setPosts }) => {
     return (
         <div>
             {posts.map(post => (
-                post.id === 0 ? '' :
+                //post.id === 0 ? '' :
                 <div onClick={() => onRemove(post.id)} key={post.id}>
                     <NoticeBoardItem post={post} setPosts={setPosts} key={post.id} />
                 </div>

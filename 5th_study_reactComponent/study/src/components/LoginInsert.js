@@ -4,11 +4,6 @@ import { Link } from 'react-router-dom';
 const submitHandler = (event) => {
     event.preventDefault();
     alert("id: " + event.target.id.value);
-    return (
-        <div>
-
-        </div>
-    );
 };
 
 const LoginInsert = () => {
