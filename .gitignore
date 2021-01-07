@@ -1,3 +1,6 @@
 *.hwp
 *.pdf
 *.png
+
+config.json
+config.js
